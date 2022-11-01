@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650292956 source:c:\users\aggel\desktop\hmty\programming_projects\ergasthria c\lab3\step2_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
