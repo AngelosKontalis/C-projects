@@ -1,0 +1,75 @@
+# C Projects Repository
+
+This repository contains various C projects, covering a range of applications from algorithms and data structures to system programming and real-world applications.
+
+## Table of Contents
+- [Introduction]
+- [Projects]
+  - [1. Data Structures and Algorithms]
+  - [2. System Programming]
+  - [3. Networking]
+  - [4. Utilities and Tools]
+- [Installation]
+- [Usage]
+- [License]
+
+## Introduction
+This repository serves as a collection of C-based projects developed for learning, practice, and real-world applications. Each project is designed to demonstrate key C programming concepts, including:
+- Low-level memory management
+- Data Structures and Algorithms
+- System calls and POSIX Threads (pthreads)
+- Networking and socket programming
+- File handling and process management
+
+## Projects
+### 1. Data Structures and Algorithms
+This section includes implementations of fundamental data structures and algorithms in C, such as:
+- Sorting algorithms (Merge Sort, Quick Sort, etc.)
+- Searching algorithms (Binary Search, DFS, BFS)
+- Linked Lists, Stacks, Queues, Trees, and Graphs
+
+### 2. System Programming
+Projects related to operating systems, multi-threading, and process management:
+- **Process Scheduler**: A simple CPU scheduling simulator.
+- **Multi-threaded Matrix Multiplication**: Using pthreads for parallel computation.
+- **File System Explorer**: A CLI tool to navigate directories and files.
+
+### 3. Networking
+Networking-based projects utilizing sockets and communication protocols:
+- **Chat Application**: A basic client-server chat program using TCP/IP.
+- **HTTP Server**: A simple web server handling HTTP requests.
+- **Network Packet Sniffer**: Capturing and analyzing network packets.
+
+### 4. Utilities and Tools
+Small tools and utilities for everyday use:
+- **File Compressor**: A Huffman coding-based compression tool.
+- **Memory Debugger**: A tool to detect memory leaks and buffer overflows.
+- **CLI Task Manager**: A command-line utility for monitoring running processes.
+
+## Installation
+To get started with these projects, clone the repository and navigate to the desired project folder:
+
+
+git clone https://github.com/AngelosKontalis/C-projects.git
+cd C-projects/<project-folder>
+
+
+Ensure you have a C compiler installed (GCC or Clang recommended). Some projects may require additional libraries, which will be listed in their respective directories.
+
+## Usage
+Each project contains a `README.md` file with specific instructions on how to compile and run the code. Generally, you can compile and run a C program with:
+
+
+gcc -o program program.c -Wall -Wextra
+./program
+
+
+For multi-file projects with Makefiles:
+
+make
+./program
+
+
+## License
+This repository is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and contribute!
+
